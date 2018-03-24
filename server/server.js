@@ -11,5 +11,5 @@ app.get('*', (req,res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Server is listening on PORT ${PORT}`);
+  console.log(`Server is listening on PORT ${port}`);
 });
