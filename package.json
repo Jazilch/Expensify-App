@@ -1,7 +1,6 @@
 {
   "name": "expensify-app",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
