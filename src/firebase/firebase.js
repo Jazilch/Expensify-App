@@ -1,7 +1,5 @@
 import * as firebase from 'firebase';
-import keys from '../config/prod';
-
-console.log(keys.apiKey)
+import keys from '../config/keys';
 
 const config = {
   apiKey: keys.apiKey,
