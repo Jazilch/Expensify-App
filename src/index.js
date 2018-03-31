@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
-import { addExpense } from './actions/expenses';
-import { setTextFilter } from './actions/filters';
-import getvisibleExpenses from './selectors/expenses';
+import './firebase/firebase';
+
 // import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
