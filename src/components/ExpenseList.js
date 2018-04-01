@@ -18,7 +18,7 @@ export const ExpenseList = (props) => (
           </div>
         ) : (
             props.expenses.map((expense) => {
-              return <ExpenseListItem key={expense.id} {...expense} />;
+              return <ExpenseListItem key={expense.id} {...expense}/>;
             })
           )
       }
